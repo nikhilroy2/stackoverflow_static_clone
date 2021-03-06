@@ -12,20 +12,695 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <div class="container-xl">
+        <nav class="navbar navbar-expand-lg text-white p-0 m-0">
+            <div class="container-xl justify-content-start">
+                <a href="#" class="navbar-brand"> </a>
+                <div class="d-inline-flex align-items-center flex-grow-1">
+                    <a href="#" class="btn btn-dark btn-sm shadow-sm me-1">Product</a>
+                    <div class="d-flex align-items-center search__nav shadow-sm me-1">
+                        <label for="searchIcon"><i class="fas fa-search    "></i></label>
+                        <input type="text" class="form-control" placeholder="Search...">
+                    </div>
+                    <div class="nav-item nav__user__scrore">
+                        <a class="nav-link d-flex align-items-center" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg"
+                                class="rounded-circle nav__avatar" height="22" alt="" loading="lazy" />
+                            <span>234</span>
+                            <span> <i class="fas fa-circle    "></i> 2</span>
+                            <span> <i class="fas fa-circle    "></i> 9</span>
+                        </a>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle btn-sm px-2 me-1 d-flex align-items-center"
+                            id="navbarDropdownMenuInbox" data-mdb-toggle="dropdown">
+                            <i class="fas fa-inbox    "></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end bg-black" aria-labelledby="navbarDropdownMenuInbox">
+                            <li onclick="event.stopPropagation()"
+                                class="d-flex justify-content-between align-items-center p-2 bg-dark text-white">
+                                <span>INBOX</span> <a href="#">all Items</a>
+                            </li>
+                            <li class="dropdown-item dropdown__hover dropdown__menu__size">
+                                <a href="#" class="text-white">
+                                    <div class="d-flex justify-content-between align-items-center p-1 stack__item">
+                                        <span>chat reply</span><span>yesterday</span>
+                                    </div>
+                                    <span class="text-primary">Python</span>
+                                    <p class="text-wrap">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quos enim
+                                        iure...
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="dropdown-item dropdown__hover dropdown__menu__size">
+                                <a href="#" class="text-white">
+                                    <div class="d-flex justify-content-between align-items-center p-1 stack__item">
+                                        <span>chat reply</span><span>yesterday</span>
+                                    </div>
+                                    <span class="text-primary">Python</span>
+                                    <p class="text-wrap">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quos enim
+                                        iure...
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="dropdown-item dropdown__hover dropdown__menu__size">
+                                <a href="#" class="text-white">
+                                    <div class="d-flex justify-content-between align-items-center p-1 stack__item">
+                                        <span>chat reply</span><span>yesterday</span>
+                                    </div>
+                                    <span class="text-primary">Python</span>
+                                    <p class="text-wrap">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quos enim
+                                        iure...
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="dropdown-item dropdown__hover dropdown__menu__size">
+                                <a href="#" class="text-white">
+                                    <div class="d-flex justify-content-between align-items-center p-1 stack__item">
+                                        <span>chat reply</span><span>yesterday</span>
+                                    </div>
+                                    <span class="text-primary">Python</span>
+                                    <p class="text-wrap">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quos enim
+                                        iure...
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle btn-sm px-2 me-1 d-flex align-items-center"
+                            id="navbarDropdownMenuTrophy" data-mdb-toggle="dropdown">
+                            <i class="fas fa-trophy    "></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end bg-black" aria-labelledby="navbarDropdownMenuTrophy">
+                            <li onclick="event.stopPropagation()"
+                                class="d-flex justify-content-between align-items-center p-2 bg-dark text-white">
+                                <span>ACHIEVEMENTS <i class="me-2">UTC TIME 15:33</i> </span>
+                                <div class="d-flex"><a href="#" class="me-1">privileges</a> <a href="#"> badges</a>
+                                </div>
+                            </li>
 
-        </div>
+
+                            <li class="dropdown-item dropdown__hover dropdown__menu__size">
+                                <a href="#" class="text-white">
+                                    <div class="d-flex justify-content-between align-items-center p-1 stack__item">
+                                        <span>chat reply</span><span>yesterday</span>
+                                    </div>
+                                    <span class="text-primary">Python</span>
+                                    <p class="text-wrap">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quos enim
+                                        iure...
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="dropdown-item dropdown__hover dropdown__menu__size">
+                                <a href="#" class="text-white">
+                                    <div class="d-flex justify-content-between align-items-center p-1 stack__item">
+                                        <span>chat reply</span><span>yesterday</span>
+                                    </div>
+                                    <span class="text-primary">Python</span>
+                                    <p class="text-wrap">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quos enim
+                                        iure...
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="dropdown-item dropdown__hover dropdown__menu__size">
+                                <a href="#" class="text-white">
+                                    <div class="d-flex justify-content-between align-items-center p-1 stack__item">
+                                        <span>chat reply</span><span>yesterday</span>
+                                    </div>
+                                    <span class="text-primary">Python</span>
+                                    <p class="text-wrap">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quos enim
+                                        iure...
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-light btn-sm px-2 me-1 dropdown-toggle d-flex align-items-center"
+                            id="navbarDropdownMenuHelp" data-mdb-toggle="dropdown">
+                            <i class="fas fa-question    "></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end bg-black" aria-labelledby="navbarDropdownMenuHelp">
+                            <li class="dropdown-item dropdown__hover dropdown__menu__size">
+                                <a href="#" class="text-white">
+                                    <span class="text-primary">Python</span>
+                                    <p class="text-wrap">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quos enim
+                                        iure...
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="dropdown-item dropdown__hover dropdown__menu__size">
+                                <a href="#" class="text-white">
+                                    <span class="text-primary">Python</span>
+                                    <p class="text-wrap">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quos enim
+                                        iure...
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="dropdown-item dropdown__hover dropdown__menu__size">
+                                <a href="#" class="text-white">
+                                    <span class="text-primary">Python</span>
+                                    <p class="text-wrap">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quos enim
+                                        iure...
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-light btn-sm px-2 me-1 dropdown-toggle d-flex align-items-center"
+                            id="navbarDropdownMenuBars" data-mdb-toggle="dropdown">
+                            <i class="fas fa-bars    "></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end bg-black" aria-labelledby="navbarDropdownMenuBars">
+                            <li onclick="event.stopPropagation()"
+                                class="d-flex justify-content-between align-items-center p-2 bg-dark text-white">
+                                <span>INBOX</span> <a href="#">all Items</a>
+                            </li>
+
+                            <li class="dropdown-item dropdown__hover dropdown__menu__size">
+                                <a href="#" class="text-white">
+                                    <div class="d-flex justify-content-between align-items-center p-1 stack__item">
+                                        <span>chat reply</span><span>yesterday</span>
+                                    </div>
+                                    <span class="text-primary">Python</span>
+                                    <p class="text-wrap">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quos enim
+                                        iure...
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="dropdown-item dropdown__hover dropdown__menu__size">
+                                <a href="#" class="text-white">
+                                    <div class="d-flex justify-content-between align-items-center p-1 stack__item">
+                                        <span>chat reply</span><span>yesterday</span>
+                                    </div>
+                                    <span class="text-primary">Python</span>
+                                    <p class="text-wrap">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quos enim
+                                        iure...
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="dropdown-item dropdown__hover dropdown__menu__size">
+                                <a href="#" class="text-white">
+                                    <div class="d-flex justify-content-between align-items-center p-1 stack__item">
+                                        <span>chat reply</span><span>yesterday</span>
+                                    </div>
+                                    <span class="text-primary">Python</span>
+                                    <p class="text-wrap">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam quos enim
+                                        iure...
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="navbar-toggler" data-mdb-toggle="collapse" data-mdb-target="#navbarNav">
+                        <i class="fas fa-bars    "></i>
+                    </button>
+                </div>
+
+            </div>
+        </nav>
     </header>
 
     <main>
         <div class="container-xl">
-            <aside></aside>
-            <article></article>
-            <aside></aside>
+            <div class="row">
+                <aside class="col-md-2">
+                    <div class="col__wrapper">
+                        <ul class="list-group
+                         text-white">
+                            <li class="list-group-item border-0 bg__transparent"><a class="text-white" href="#">Home</a>
+                            </li>
+                            <li class="list-group-item border-0 bg__transparent">
+                                <h3 class="h6">Public</h3>
+                                <a href="#" class="d-block text-white"><i class="fas fa-globe-asia    "></i> Stack
+                                    Overflow</a>
+                                <ul class="list-group ms-2">
+                                    <li class="list-group-item border-0 bg__transparent"><a class="text-white-50"
+                                            href="#">Tags</a></li>
+                                    <li class="list-group-item border-0 bg__transparent"><a class="text-white-50"
+                                            href="#">Users</a></li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item border-0 bg__transparent">
+                                <h3 class="h6">Find a Jobs</h3>
+                                <ul class="list-group ms-2">
+                                    <li class="list-group-item border-0 bg__transparent"><a href="#"
+                                            class="text-white-50">Jobs</a></li>
+                                    <li class="list-group-item border-0 bg__transparent"><a href="#"
+                                            class="text-white-50">Companies</a></li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item border-0 bg__transparent">
+                                <div class="d-flex justify-content-between">
+                                    <span>Teams</span>
+                                    <a href="#" class="text-white-50">Whats new?</a>
+                                </div>
+                            </li>
+                            <li class="list-group-item border-0 bg__transparent">
+                                <a href="#" class="text-white d-block"> <i class="fas fa-user-friends me-1   "></i>
+                                    Create a Team </a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+                <article class="col-md-7">
+                    <div class="col__wrapper">
+                        <div class="d-flex justify-content-between align-items-center py-3">
+                            <span class="h2">Top Questions</span>
+                            <a href="#" class="btn btn-info">Ask Question</a>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <div class="btn-group btn__border__group">
+                                <a href="#" class="btn btn-dark me-1 btn-sm">Interesting</a>
+                                <a href="#" class="btn btn-dark me-1 btn-sm"> <span class="badge bg-info">418</span>
+                                    Bountied</a>
+                                <a href="#" class="btn btn-dark px-1 me-1 btn-sm">Hot</a>
+                                <a href="#" class="btn btn-dark px-1 me-1 btn-sm">Week</a>
+                                <a href="#" class="btn btn-dark px-1 me-1 btn-sm">Month</a>
+                            </div>
+                        </div>
+                        <div class="posting__wrapper my-3">
+                            <div
+                                class="posting__item active d-flex align-items-center justify-content-between py-3 px-2">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="votes">0</span> <br> votes
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="answers">0</span> <br>
+                                        answers
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="views">2</span> <br> views
+                                    </button>
+                                </div>
+                                <div class="posting__desk">
+                                    <a href="#">
+                                        <h2 class="h5">How to set a variable type but without giving it a value?</h2>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group btn__taging">
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">angular</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">reactjs</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">viewjs</a>
+                                        </div>
+                                        <div class="user__posting__details">
+                                            <span>asked 6 mins ago</span>
+                                            <a href="#">Miguel Moura</a>
+                                            <span class="count__pointing">27.2k</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="posting__item d-flex align-items-center justify-content-between py-3 px-2">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="votes">0</span> <br> votes
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="answers">0</span> <br>
+                                        answers
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="views">2</span> <br> views
+                                    </button>
+                                </div>
+                                <div class="posting__desk">
+                                    <a href="#">
+                                        <h2 class="h5">How to set a variable type but without giving it a value?</h2>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group btn__taging">
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">angular</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">reactjs</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">viewjs</a>
+                                        </div>
+                                        <div class="user__posting__details">
+                                            <span>asked 6 mins ago</span>
+                                            <a href="#">Miguel Moura</a>
+                                            <span class="count__pointing">27.2k</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="posting__item d-flex align-items-center justify-content-between py-3 px-2">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="votes">0</span> <br> votes
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="answers">0</span> <br>
+                                        answers
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="views">2</span> <br> views
+                                    </button>
+                                </div>
+                                <div class="posting__desk">
+                                    <a href="#">
+                                        <h2 class="h5">How to set a variable type but without giving it a value?</h2>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group btn__taging">
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">angular</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">reactjs</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">viewjs</a>
+                                        </div>
+                                        <div class="user__posting__details">
+                                            <span>asked 6 mins ago</span>
+                                            <a href="#">Miguel Moura</a>
+                                            <span class="count__pointing">27.2k</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="posting__item d-flex align-items-center justify-content-between py-3 px-2">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="votes">0</span> <br> votes
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="answers">0</span> <br>
+                                        answers
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="views">2</span> <br> views
+                                    </button>
+                                </div>
+                                <div class="posting__desk">
+                                    <a href="#">
+                                        <h2 class="h5">How to set a variable type but without giving it a value?</h2>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group btn__taging">
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">angular</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">reactjs</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">viewjs</a>
+                                        </div>
+                                        <div class="user__posting__details">
+                                            <span>asked 6 mins ago</span>
+                                            <a href="#">Miguel Moura</a>
+                                            <span class="count__pointing">27.2k</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="posting__item d-flex align-items-center justify-content-between py-3 px-2">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="votes">0</span> <br> votes
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-success"><span class="answers">2</span> <br>
+                                        answers
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="views">2</span> <br> views
+                                    </button>
+                                </div>
+                                <div class="posting__desk">
+                                    <a href="#">
+                                        <h2 class="h5">How to set a variable type but without giving it a value?</h2>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group btn__taging">
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">angular</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">reactjs</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">viewjs</a>
+                                        </div>
+                                        <div class="user__posting__details">
+                                            <span>asked 6 mins ago</span>
+                                            <a href="#">Miguel Moura</a>
+                                            <span class="count__pointing">27.2k</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="posting__item d-flex align-items-center justify-content-between py-3 px-2">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="votes">0</span> <br> votes
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-success"><span class="answers">1</span> <br>
+                                        answers
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="views">2</span> <br> views
+                                    </button>
+                                </div>
+                                <div class="posting__desk">
+                                    <a href="#">
+                                        <h2 class="h5">How to set a variable type but without giving it a value?</h2>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group btn__taging">
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">angular</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">reactjs</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">viewjs</a>
+                                        </div>
+                                        <div class="user__posting__details">
+                                            <span>asked 6 mins ago</span>
+                                            <a href="#">Miguel Moura</a>
+                                            <span class="count__pointing">27.2k</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="posting__item d-flex align-items-center justify-content-between py-3 px-2">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="votes">0</span> <br> votes
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="answers">0</span> <br>
+                                        answers
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="views">2</span> <br> views
+                                    </button>
+                                </div>
+                                <div class="posting__desk">
+                                    <a href="#">
+                                        <h2 class="h5">How to set a variable type but without giving it a value?</h2>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group btn__taging">
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">angular</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">reactjs</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">viewjs</a>
+                                        </div>
+                                        <div class="user__posting__details">
+                                            <span>asked 6 mins ago</span>
+                                            <a href="#">Miguel Moura</a>
+                                            <span class="count__pointing">27.2k</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="posting__item d-flex align-items-center justify-content-between py-3 px-2">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="votes">0</span> <br> votes
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="answers">0</span> <br>
+                                        answers
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="views">2</span> <br> views
+                                    </button>
+                                </div>
+                                <div class="posting__desk">
+                                    <a href="#">
+                                        <h2 class="h5">How to set a variable type but without giving it a value?</h2>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group btn__taging">
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">angular</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">reactjs</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">viewjs</a>
+                                        </div>
+                                        <div class="user__posting__details">
+                                            <span>asked 6 mins ago</span>
+                                            <a href="#">Miguel Moura</a>
+                                            <span class="count__pointing">27.2k</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="posting__item d-flex align-items-center justify-content-between py-3 px-2">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm font__10 btn-danger"><span class="votes">-2</span> <br>
+                                        votes
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-success"><span class="answers">0</span> <br>
+                                        answers
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="views">2</span> <br> views
+                                    </button>
+                                </div>
+                                <div class="posting__desk">
+                                    <a href="#">
+                                        <h2 class="h5">How to set a variable type but without giving it a value?</h2>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group btn__taging">
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">angular</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">reactjs</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">viewjs</a>
+                                        </div>
+                                        <div class="user__posting__details">
+                                            <span>asked 6 mins ago</span>
+                                            <a href="#">Miguel Moura</a>
+                                            <span class="count__pointing">27.2k</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="posting__item d-flex align-items-center justify-content-between py-3 px-2">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="votes">0</span> <br> votes
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="answers">0</span> <br>
+                                        answers
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-green"><span class="views">20</span> <br>
+                                        views
+                                    </button>
+                                </div>
+                                <div class="posting__desk">
+                                    <a href="#">
+                                        <h2 class="h5">How to set a variable type but without giving it a value?</h2>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group btn__taging">
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">angular</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">reactjs</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">viewjs</a>
+                                        </div>
+                                        <div class="user__posting__details">
+                                            <span>asked 6 mins ago</span>
+                                            <a href="#">Miguel Moura</a>
+                                            <span class="count__pointing">27.2k</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="posting__item d-flex align-items-center justify-content-between py-3 px-2">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="votes">0</span> <br> votes
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="answers">0</span> <br>
+                                        answers
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="views">2</span> <br> views
+                                    </button>
+                                </div>
+                                <div class="posting__desk">
+                                    <a href="#">
+                                        <h2 class="h5">How to set a variable type but without giving it a value?</h2>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group btn__taging">
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">angular</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">reactjs</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">viewjs</a>
+                                        </div>
+                                        <div class="user__posting__details">
+                                            <span>asked 6 mins ago</span>
+                                            <a href="#">Miguel Moura</a>
+                                            <span class="count__pointing">27.2k</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="posting__item d-flex align-items-center justify-content-between py-3 px-2">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="votes">0</span> <br> votes
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="answers">0</span> <br>
+                                        answers
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="views">2</span> <br> views
+                                    </button>
+                                </div>
+                                <div class="posting__desk">
+                                    <a href="#">
+                                        <h2 class="h5">How to set a variable type but without giving it a value?</h2>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group btn__taging">
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">angular</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">reactjs</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">viewjs</a>
+                                        </div>
+                                        <div class="user__posting__details">
+                                            <span>asked 6 mins ago</span>
+                                            <a href="#">Miguel Moura</a>
+                                            <span class="count__pointing">27.2k</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="posting__item d-flex align-items-center justify-content-between py-3 px-2">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="votes">0</span> <br> votes
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="answers">0</span> <br>
+                                        answers
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="views">2</span> <br> views
+                                    </button>
+                                </div>
+                                <div class="posting__desk">
+                                    <a href="#">
+                                        <h2 class="h5">How to set a variable type but without giving it a value?</h2>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group btn__taging">
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">angular</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">reactjs</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">viewjs</a>
+                                        </div>
+                                        <div class="user__posting__details">
+                                            <span>asked 6 mins ago</span>
+                                            <a href="#">Miguel Moura</a>
+                                            <span class="count__pointing">27.2k</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="posting__item d-flex align-items-center justify-content-between py-3 px-2">
+                                <div class="btn-group">
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="votes">0</span> <br> votes
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="answers">0</span> <br>
+                                        answers
+                                    </button>
+                                    <button class="btn btn-sm font__10 btn-dark"><span class="views">2</span> <br> views
+                                    </button>
+                                </div>
+                                <div class="posting__desk">
+                                    <a href="#">
+                                        <h2 class="h5">How to set a variable type but without giving it a value?</h2>
+                                    </a>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group btn__taging">
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">angular</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">reactjs</a>
+                                            <a href="#" class="btn font__10 btn-sm btn-dark text-white-50">viewjs</a>
+                                        </div>
+                                        <div class="user__posting__details">
+                                            <span>asked 6 mins ago</span>
+                                            <a href="#">Miguel Moura</a>
+                                            <span class="count__pointing">27.2k</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <aside class="col-md-3"></aside>
+            </div>
         </div>
     </main>
     <!-- MDB -->

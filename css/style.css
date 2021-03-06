@@ -1,0 +1,124 @@
+.font__10 {
+  font-size: 10px;
+}
+
+.bg__transparent {
+  background: transparent !important;
+}
+
+body {
+  background: #2d2d2d;
+  color: #fff;
+  font-size: 13px;
+}
+
+header {
+  background: #393939;
+}
+
+header .navbar-brand {
+  background: url("../img/sprites.svg") 0 -500px;
+  width: 185px;
+  height: 35px;
+  -webkit-filter: invert(0.5) brightness(2);
+          filter: invert(0.5) brightness(2);
+}
+
+header .search__nav {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border-radius: 10px;
+  padding: 0 12px;
+  background: rgba(255, 255, 255, 0.185);
+}
+
+header .search__nav input,
+header .search__nav input:focus {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #fff;
+}
+
+header .search__nav input::-webkit-input-placeholder,
+header .search__nav input:focus::-webkit-input-placeholder {
+  color: #fff;
+}
+
+header .search__nav input:-ms-input-placeholder,
+header .search__nav input:focus:-ms-input-placeholder {
+  color: #fff;
+}
+
+header .search__nav input::-ms-input-placeholder,
+header .search__nav input:focus::-ms-input-placeholder {
+  color: #fff;
+}
+
+header .search__nav input::placeholder,
+header .search__nav input:focus::placeholder {
+  color: #fff;
+}
+
+header .nav__user__scrore .nav-link {
+  color: #fff;
+}
+
+header .nav__user__scrore .nav__avatar {
+  height: 35px;
+}
+
+header .nav__user__scrore span {
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+header .nav__user__scrore span i {
+  font-size: 8px;
+}
+
+header .dropdown-toggle:after {
+  display: none;
+}
+
+header .stack__item {
+  background: transparent url(https://cdn.sstatic.net/Img/favicons-sprite16-dark.png?v=9714ec79c63b) left -8613px/23px no-repeat;
+  padding-left: 30px !important;
+}
+
+header .dropdown__hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header .dropdown__hover:hover {
+  background: rgba(255, 255, 255, 0.123) !important;
+}
+
+header .dropdown__menu__size {
+  min-width: 25rem;
+}
+
+main .btn__border__group {
+  border: 1px solid rgba(170, 170, 170, 0.61);
+}
+
+main .posting__wrapper {
+  border-top: 1px solid rgba(170, 170, 170, 0.61);
+}
+
+main .posting__wrapper .posting__item {
+  border-bottom: 1px solid rgba(170, 170, 170, 0.1);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+main .posting__wrapper .posting__item:hover, main .posting__wrapper .posting__item.active {
+  background: rgba(0, 0, 0, 0.2);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,92 @@
+// .................Global..........
+.font__10 {
+  font-size: 10px;
+}
+.bg__transparent {
+  background: transparent !important;
+}
+// .................Global..........End
+
+body {
+  background: #2d2d2d;
+  color: #fff;
+  font-size: 13px;
+}
+header {
+  background: #393939;
+  .navbar-brand {
+    background: url("../img/sprites.svg") 0 -500px;
+    width: 185px;
+    height: 35px;
+    filter: invert(0.5) brightness(2);
+  }
+  .search__nav {
+    flex-grow: 1;
+    border-radius: 10px;
+    padding: 0 12px;
+    background: rgba(255, 255, 255, 0.185);
+    input,
+    input:focus {
+      width: 100%;
+      border: none;
+      outline: none;
+      background: transparent;
+      box-shadow: none;
+      color: #fff;
+      &::placeholder {
+        color: #fff;
+      }
+    }
+  }
+  .nav__user__scrore {
+    .nav-link {
+      color: #fff;
+    }
+    .nav__avatar {
+      height: 35px;
+    }
+    span {
+      font-size: 12px;
+      display: inline-block;
+      margin-left: 5px;
+      i {
+        font-size: 8px;
+      }
+    }
+  }
+  .dropdown-toggle:after {
+    display: none;
+  }
+  .stack__item {
+    background: transparent
+      url(https://cdn.sstatic.net/Img/favicons-sprite16-dark.png?v=9714ec79c63b)
+      left -8613px/ 23px no-repeat;
+    padding-left: 30px !important;
+  }
+  .dropdown__hover {
+    transition: 0.3s;
+    &:hover {
+      background: rgba(255, 255, 255, 0.123) !important;
+    }
+  }
+  .dropdown__menu__size {
+    min-width: 25rem;
+  }
+}
+main {
+  .btn__border__group {
+    border: 1px solid rgba(170, 170, 170, 0.61);
+  }
+  .posting__wrapper {
+    border-top: 1px solid rgba(170, 170, 170, 0.61);
+    .posting__item {
+      border-bottom: 1px solid rgba(170, 170, 170, 0.1);
+
+      transition: 0.2s;
+      &:hover,
+      &.active {
+        background: rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}
