@@ -6,6 +6,10 @@
   background: transparent !important;
 }
 
+.line__height--icon {
+  line-height: 1.6;
+}
+
 body {
   background: #2d2d2d;
   color: #fff;
@@ -120,5 +124,26 @@ main .posting__wrapper .posting__item {
 
 main .posting__wrapper .posting__item:hover, main .posting__wrapper .posting__item.active {
   background: rgba(0, 0, 0, 0.2);
+}
+
+main .widget__box.widget__box--1 {
+  background: #464236;
+}
+
+main .widget__box.widget__box--1 .list__group__title {
+  background: #524B38;
+  border: 1px solid #554d3b;
+}
+
+main .widget__box.widget__box--2 .list__group__title {
+  background: #393939;
+}
+
+main .widget__box.widget__box--3 .list__group__title {
+  background: #393939;
+}
+
+main .widget__box.widget__box--4 .list__group__title {
+  background: #393939;
 }
 /*# sourceMappingURL=style.css.map */

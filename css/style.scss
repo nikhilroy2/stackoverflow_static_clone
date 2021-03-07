@@ -5,6 +5,9 @@
 .bg__transparent {
   background: transparent !important;
 }
+.line__height--icon{
+  line-height: 1.6;
+}
 // .................Global..........End
 
 body {
@@ -81,7 +84,6 @@ main {
     border-top: 1px solid rgba(170, 170, 170, 0.61);
     .posting__item {
       border-bottom: 1px solid rgba(170, 170, 170, 0.1);
-
       transition: 0.2s;
       &:hover,
       &.active {
@@ -89,4 +91,29 @@ main {
       }
     }
   }
+  .widget__box{
+    &.widget__box--1{
+      background: #464236;
+      .list__group__title{
+        background: #524B38;
+        border: 1px solid #554d3b;
+      }
+    }
+    &.widget__box--2{
+      .list__group__title{
+        background: #393939;
+      }
+    }
+    &.widget__box--3{
+      .list__group__title{
+        background: #393939;
+      }
+    }
+    &.widget__box--4{
+      .list__group__title{
+        background: #393939;
+      }
+    }
+  }
+  
 }
